@@ -7,6 +7,7 @@ Preparing the data involved removing comment lines, empty lines, and extra comma
 columns including patient_id, visit_date, age, education_level, and walking_speed. 
 The shell script generates a file insurance.lst containing the different 
 insurance types (Basic, Premium, Platinum). There are 15443 rows and the first 5 rows of data is shown below:
+
 | Patient   | Visit Date   | Age   | Education Level | Walking Speed |
 |-----------|--------------|-------|-----------------|---------------|
 | P0001     | 2020-02-24   | 74.77 | High school     | 2.35          |
@@ -20,6 +21,7 @@ In this portion, patients were randomly assigned an insurance plan. Insurance ty
 = 150. Summary statistics were also outputted as shown by the tables below.
 1. This table displays the average walking speed by education level. Those with a high school level education have the slowest walking 
 speed, whereas those with a graduate level education have the fastest walking speed.
+
 | Education Level | Mean Walking Speed |
 |-----------------|--------------------|
 | Bachelors       | 4.026176           |
@@ -28,6 +30,7 @@ speed, whereas those with a graduate level education have the fastest walking sp
 | Some College    | 3.644946           |
 
 2. This table shows the mean visit costs by insurance type.
+
 | Insurance Type  | Mean Visit Costs   |
 |-----------------|--------------------|
 | Basic           | 75.000571          |
@@ -37,12 +40,13 @@ speed, whereas those with a graduate level education have the fastest walking sp
 3. This table is the age effects on walking speed. Younger patients have the fastest walking speed and older patients have much slower 
 walking speeds. Additionally, the correlation between walking speed and age (using the corr() function) resulted in a value of 
 -0.670, indicating a moderate negative correlation where as age increases, walking speed decreases.
+
 | Age Group       | Mean Walking Speed |
 |-----------------|--------------------|
 | 18-35           | 4.569382           |
 | 36-50           | 4.116612           |
 | 51-65           | 3.676329           |
-| >65		  | 3.228023	       |
+| >65             | 3.228023           |
 
 ### Question 3: Statistical Analysis 
 - Analyzing walking speed
