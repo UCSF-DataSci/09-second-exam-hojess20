@@ -21,7 +21,7 @@ In this portion, patients were randomly assigned an insurance plan. Insurance ty
 1. This table displays the average walking speed by education level. Those with a high school level education have the slowest walking 
 speed, whereas those with a graduate level education have the fastest walking speed.
 | Education Level | Mean Walking Speed |
-| --------------- | ------------------ |
+|-----------------|--------------------|
 | Bachelors       | 4.026176           |
 | Graduate        | 4.444103           |
 | High School     | 3.278720           |
@@ -29,7 +29,7 @@ speed, whereas those with a graduate level education have the fastest walking sp
 
 2. This table shows the mean visit costs by insurance type.
 | Insurance Type  | Mean Visit Costs   |
-| ----------------| ------------------ |
+|-----------------|--------------------|
 | Basic           | 75.000571          |
 | Premium         | 100.134323         |
 | Platinum        | 149.828682         |
@@ -38,7 +38,7 @@ speed, whereas those with a graduate level education have the fastest walking sp
 walking speeds. Additionally, the correlation between walking speed and age (using the corr() function) resulted in a value of 
 -0.670, indicating a moderate negative correlation where as age increases, walking speed decreases.
 | Age Group       | Mean Walking Speed |
-| --------------- | ------------------ |
+|-----------------|--------------------|
 | 18-35           | 4.569382           |
 | 36-50           | 4.116612           |
 | 51-65           | 3.676329           |
