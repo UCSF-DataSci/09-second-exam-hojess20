@@ -29,7 +29,7 @@ speed, whereas those with a graduate level education have the fastest walking sp
 
 2. This table shows the mean visit costs by insurance type.
 | Insurance Type  | Mean Visit Costs   |
-| --------------- | ------------------ |
+| ----------------| ------------------ |
 | Basic           | 75.000571          |
 | Premium         | 100.134323         |
 | Platinum        | 149.828682         |
