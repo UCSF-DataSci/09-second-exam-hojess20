@@ -50,11 +50,13 @@ walking speeds. Additionally, the correlation between walking speed and age (usi
 
 ### Question 3: Statistical Analysis 
 - Analyzing walking speed
+
 A multiple regression model of walking speed with relation to education and age was formulated and analyzed. 
 This model produced an adjusted R-squared value of 0.8, meaning 80% of variance in walking speed is explained by education and age. 
 ![OLS output](regression_model.png)
 
 - Analyzing costs
+
 An ANOVA analysis was conducted on the effect of insurance type on visit costs. The F-statistic was 74105.314 suggesting that insurance 
 type has a significant impact on visit costs and there are significant differences between the group means.
 Below is the summary statistics and boxplot visualizing this effect.
@@ -62,6 +64,7 @@ Below is the summary statistics and boxplot visualizing this effect.
 ![boxplot cost](boxplot_question3.png)
 
 - Advanced analysis
+
 To understand the interaction effect of education and age on walking speed, a mixed linear model was formulated (walking_speed ~ 
 education_level * age). The summary of the model fit is shown below:
 ![interaction summary](interaction.png)
